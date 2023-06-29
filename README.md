@@ -9,6 +9,10 @@ PandasTools is a Python package that extends the functionality of Pandas DataFra
 - Concatenation and reduction: `PtDataFrame` supports concatenation of multiple instances and reduction of a list of `PtDataFrame` objects into a single instance.
 - Column extraction: Easily extract a column as a list from a `PtDataFrame`.
 
+**Docs:** <a href="https://msbar.github.io/pandas-tools" target="_blank">https://msbar.github.io/pandas-tools</a>
+
+**Source code:** <a href="https://github.com/msbar/pandas-tools" target="_blank">https://github.com/msbar/pandas-tools</a>
+
 ## Installation
 
 You can install PandasTools using pip:

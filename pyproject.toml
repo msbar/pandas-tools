@@ -11,18 +11,23 @@ authors = [
 description = "Package with tools for pandas"
 readme = "README.md"
 requires-python = ">=3.7"
+license = "MIT"
+keywords = [
+  "pandas",
+  "tools",
+  "asyncio",
+]
+
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
 dependencies = [
   'pandas>=1.5.3',
   'openpyxl>=3.1.2',
   'unidecode>=1.3.6'
 ]
-
 [project.optional-dependencies]
 tests = [
   'anyio==3.6.2',
@@ -40,8 +45,8 @@ docs = [
 
 [project.urls]
 "source" = "https://github.com/msbar/pandas-tools"
+"Documentation" = "https://msbar.github.io/pandas-tools/"
 "Bug Tracker" = "https://github.com/msbar/pandas-tools/issues"
-
 
 [tool.black]
 line-length = 119

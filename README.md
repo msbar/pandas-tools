@@ -1,6 +1,6 @@
-# Pandas Tools
+# Pypdtools
 
-PandasTools is a Python package that extends the functionality of Pandas DataFrames by introducing the `PtDataFrame` class. `PtDataFrame` provides additional features and enhancements to work with DataFrames in a more convenient and flexible way.
+Pypdtools is a Python package that extends the functionality of Pandas DataFrames by introducing the `PtDataFrame` class. `PtDataFrame` provides additional features and enhancements to work with DataFrames in a more convenient and flexible way.
 
 ## Features
 
@@ -9,15 +9,15 @@ PandasTools is a Python package that extends the functionality of Pandas DataFra
 - Concatenation and reduction: `PtDataFrame` supports concatenation of multiple instances and reduction of a list of `PtDataFrame` objects into a single instance.
 - Column extraction: Easily extract a column as a list from a `PtDataFrame`.
 
-**Docs:** <a href="https://msbar.github.io/pandas-tools" target="_blank">https://msbar.github.io/pandas-tools</a>
+**Docs:** <a href="https://msbar.github.io/pypdtools" target="_blank">https://msbar.github.io/pypdtools</a>
 
-**Source code:** <a href="https://github.com/msbar/pandas-tools" target="_blank">https://github.com/msbar/pandas-tools</a>
+**Source code:** <a href="https://github.com/msbar/pypdtools" target="_blank">https://github.com/msbar/pypdtools</a>
 
 ## Installation
 
-You can install PandasTools using pip:
+You can install pypdtools using pip:
 ```
-pip install pandas-tools
+pip install pypdtools
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Here's an example of how to use the `PtDataFrame` class:
 
 ```python
 import pandas as pd
-from pandastools.core.dataframe import PtDataFrame
+from pypdtools.core.dataframe import PtDataFrame
 
 # Create a Pandas DataFrame
 data = {

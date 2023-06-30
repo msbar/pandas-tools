@@ -1,1 +1,1 @@
-::: pandastools.core.dataframe
+::: pypdtools.core.dataframe

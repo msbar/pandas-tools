@@ -2,8 +2,8 @@ from typing import Iterator, List
 
 import pandas as pd
 
-from pandastools.abc.scripts import AbstractEtl
-from pandastools.core.dataframe import PtDataFrame
+from pypdtools.abc.scripts import AbstractEtl
+from pypdtools.core.dataframe import PtDataFrame
 
 
 class BaseEtl(AbstractEtl):

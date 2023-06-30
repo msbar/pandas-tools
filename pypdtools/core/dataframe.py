@@ -4,7 +4,7 @@ from typing import Any, Awaitable, Iterator, List
 
 import pandas as pd
 
-from pandastools.abc.dataframe import AbstractPtDataFrame
+from pypdtools.abc.dataframe import AbstractPtDataFrame
 
 
 class PtDataFrame(AbstractPtDataFrame):

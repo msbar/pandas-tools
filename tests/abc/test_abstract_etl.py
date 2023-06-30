@@ -1,4 +1,4 @@
-from pandastools.abc.scripts import AbstractEtl
+from pypdtools.abc.scripts import AbstractEtl
 
 
 def test_extract_not_implemented():

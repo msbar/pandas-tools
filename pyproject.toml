@@ -1,27 +1,26 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0" , "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pandas-tools"
+name = "pypdtools"
 version = "0.0.1"
 authors = [
-  { name="Marciel Barcellos", email="marciel.barcellos@tcmrio.tc.br" },
+  { name="Marciel Barcellos", email="marciel.barcellos@tcmrio.tc.br" }
 ]
 description = "Package with tools for pandas"
+
 readme = "README.md"
 requires-python = ">=3.7"
-license = "MIT"
-keywords = [
-  "pandas",
-  "tools",
-  "asyncio",
-]
-
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+keywords = [
+  "pandas",
+  "tools",
+  "asyncio",
 ]
 dependencies = [
   'pandas>=1.5.3',
@@ -44,9 +43,9 @@ docs = [
 ]
 
 [project.urls]
-"source" = "https://github.com/msbar/pandas-tools"
-"Documentation" = "https://msbar.github.io/pandas-tools/"
-"Bug Tracker" = "https://github.com/msbar/pandas-tools/issues"
+"source" = "https://github.com/msbar/pypdtools"
+"Documentation" = "https://msbar.github.io/pypdtools/"
+"Bug Tracker" = "https://github.com/msbar/pypdtools/issues"
 
 [tool.black]
 line-length = 119

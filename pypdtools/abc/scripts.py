@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from pandastools.core.dataframe import PtDataFrame
+from pypdtools.core.dataframe import PtDataFrame
 
 
 class AbstractEtl(PtDataFrame):

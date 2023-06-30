@@ -1,1 +1,1 @@
-::: pandastools.core.scripts
+::: pypdtools.core.scripts

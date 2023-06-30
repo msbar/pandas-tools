@@ -3,7 +3,7 @@ from asyncio import ensure_future, gather, sleep
 import pandas as pd
 import pytest
 
-from pandastools.core.dataframe import PtDataFrame
+from pypdtools.core.dataframe import PtDataFrame
 
 
 def dummy_df():

@@ -4,7 +4,7 @@ Here's an example of how to use the `PtDataFrame` class:
 
 ```python
 import pandas as pd
-from pandastools.core.dataframe import PtDataFrame
+from pypdtools.core.dataframe import PtDataFrame
 
 # Create a Pandas DataFrame
 data = {

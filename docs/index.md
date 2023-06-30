@@ -1,6 +1,6 @@
-# Pandas Tools
+# pypdtools
 
-PandasTools is a Python package that extends the functionality of Pandas DataFrames by introducing the `PtDataFrame` class. `PtDataFrame` provides additional features and enhancements to work with DataFrames in a more convenient and flexible way.
+pypdtools is a Python package that extends the functionality of Pandas DataFrames by introducing the `PtDataFrame` class. `PtDataFrame` provides additional features and enhancements to work with DataFrames in a more convenient and flexible way.
 
 ## Features
 
@@ -11,7 +11,7 @@ PandasTools is a Python package that extends the functionality of Pandas DataFra
 
 ## Installation
 
-You can install PandasTools using pip:
+You can install pypdtools using pip:
 ```
-pip install pandas-tools
+pip install pypdtools
 ```

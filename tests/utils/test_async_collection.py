@@ -2,7 +2,7 @@ import asyncio
 
 import pytest
 
-from pandastools.utils.asyncs import AsyncCollection
+from pypdtools.utils.asyncs import AsyncCollection
 
 
 @pytest.fixture

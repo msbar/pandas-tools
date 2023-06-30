@@ -14,7 +14,10 @@ nav:
       - dataframe: 'abc/dataframe.md'
     - Core:
       - dataframe: 'core/dataframe.md'
-
+      - scripts: 'core/scripts.md'
+    - Utils:
+      - asyncs: 'utils/asyncs.md'
+      
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

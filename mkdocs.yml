@@ -9,10 +9,11 @@ nav:
   - Home: index.md
   - Getting Started:
     - Quick Start: 'getting_started/quickstart.md'
-  - Abc:
-    - abstracts: 'abc/abstracts.md'
-  - Core:
-    - dataframe: 'core/dataframe.md'
+  - Api:
+    - Abc:
+      - dataframe: 'abc/dataframe.md'
+    - Core:
+      - dataframe: 'core/dataframe.md'
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,6 +1,6 @@
 from asyncio import Lock, sleep
 from functools import reduce
-from typing import Awaitable, Iterator
+from typing import Any, Awaitable, Iterator, List
 
 import pandas as pd
 
@@ -162,7 +162,7 @@ class PtDataFrame(AbstractPtDataFrame):
             except StopIteration:
                 raise StopAsyncIteration
 
-    def __next__(self):
+    def __next__(self) -> Any:
         """
         Iterator support for the PtDataFrame.
 
@@ -171,7 +171,7 @@ class PtDataFrame(AbstractPtDataFrame):
         """
         return self._iterator.__next__()
 
-    def __add__(self, other):
+    def __add__(self, other) -> "PtDataFrame":
         """
         Concatenate the PtDataFrame with another PtDataFrame.
 
@@ -184,7 +184,7 @@ class PtDataFrame(AbstractPtDataFrame):
         concat = pd.concat([self._df, other._df], ignore_index=True)
         return PtDataFrame(concat)
 
-    def __iadd__(self, other):
+    def __iadd__(self, other) -> "PtDataFrame":
         """
         In-place concatenation of the PtDataFrame with another PtDataFrame.
 
@@ -198,7 +198,7 @@ class PtDataFrame(AbstractPtDataFrame):
         return self
 
     @classmethod
-    def reduce(cls, df_list):
+    def reduce(cls, df_list) -> "PtDataFrame":
         """
         Reduce a list of PtDataFrame objects into a single PtDataFrame.
 
@@ -210,7 +210,7 @@ class PtDataFrame(AbstractPtDataFrame):
         """
         return PtDataFrame(reduce(lambda x, y: x + y, df_list).df)
 
-    def col_to_list(self, col_name, drop_duplicates=True):
+    def col_to_list(self, col_name, drop_duplicates=True) -> List:
         """
         Extract a column as a list from the PtDataFrame.
 

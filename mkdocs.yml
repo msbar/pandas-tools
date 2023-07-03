@@ -13,6 +13,8 @@ nav:
     - Abc:
       - dataframe: 'abc/dataframe.md'
     - Core:
+      - Services:
+        - load_service: 'core/services/load_services.md'
       - dataframe: 'core/dataframe.md'
       - scripts: 'core/scripts.md'
     - Utils:

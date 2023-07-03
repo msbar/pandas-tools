@@ -1,17 +1,17 @@
 .PHONY: format lint test sec
 
 format:
-	@black pypdtools/
+	@black src/pypdtools/
 	@black tests/
-	@isort -m 3 pypdtools/
+	@isort -m 3 src/pypdtools/
 	@isort -m 3 tests/
 
 lint:
-	@black pypdtools/ --check
+	@black src/pypdtools/ --check
 	@black tests/ --check
-	@flake8 pypdtools/
+	@flake8 src/pypdtools/
 	@flake8 tests/
-	@isort -m 3 pypdtools/ --check
+	@isort -m 3 src/pypdtools/ --check
 	@isort -m 3 tests/ --check
 
 

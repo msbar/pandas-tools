@@ -7,7 +7,7 @@ include-package-data = true
 
 [project]
 name = "pypdtools"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Marciel Barcellos", email="marciel.barcellos@tcmrio.tc.br" }
 ]

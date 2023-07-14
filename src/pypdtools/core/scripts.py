@@ -12,7 +12,7 @@ class BaseEtl(AbstractEtl):
     def __init__(self) -> None:
         """This method is used to initialize the ETL object."""
         super().__init__()
-        self.data = None
+        self._df = None
         self.executed = False
 
     def extract(self):
